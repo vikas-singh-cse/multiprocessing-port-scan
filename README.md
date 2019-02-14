@@ -14,6 +14,9 @@ NUMBER_OF_FORKED_PROCESSES = 150
 Additionally this tool will also analyse which ports are open and which are closed and report back in this format:
 
 
-1.2.3.4 {'closed_ports': ['22'], 'open_ports': ['80']}
-1.2.4.5 {'closed_ports': [], 'open_ports': ['22', '80']}
-1.2.3.6 {'closed_ports': [], 'open_ports': ['22']}
+
+ 1.2.3.4 {'closed_ports': ['22'], 'open_ports': ['80']}
+ 
+ 1.2.3.5 {'closed_ports': ['22'], 'open_ports': ['80']}
+ 
+ 1.2.3.6 {'closed_ports': [], 'open_ports': ['22']}
