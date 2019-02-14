@@ -6,7 +6,7 @@ CUSTOMER_PUBLIC_IP = '1.2.3.4 1.2.3.5 1.2.3.6 1.2.3.7'
 CUSTOMER_PUBLIC_IP_LIST = CUSTOMER_PUBLIC_IP.split()
 
 # These many processes will be spawned for scanning 
-NUMBER_OF_FORKED_PROCESSES = 10
+NUMBER_OF_FORKED_PROCESSES = 150
 
 ip_ports = {}
 lines = []
